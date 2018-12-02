@@ -1,8 +1,3 @@
-# lua-rubble
-
-Rust-like struct-trait-impl system
-
-```lua
 require 'rubble'
 
 vector2 = struct {
@@ -32,4 +27,3 @@ local v2 = vector2{x=2, y=1}
 local v3 = v1:add(v2)
 
 print(v3.x, v3.y, v3:length())
-```
